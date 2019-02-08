@@ -1,10 +1,10 @@
 import React from 'react';
 import { Title } from './StyledComponents';
 
-const Footer = (() => {
+const Header = (() => {
   return (
-    <Title>OpenTable App</Title>
+    <header><Title>OpenTable App</Title></header>
   )
 })
 
-export default Footer;
+export default Header;
